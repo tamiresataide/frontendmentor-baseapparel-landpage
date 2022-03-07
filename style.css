@@ -22,12 +22,13 @@ p.description{
 footer{
     color: rgb(46, 46, 46);
     text-align: center;
+    font-size: 12px;
 }
 
 @media screen and (min-width: 450px) {
 
     img{
-        max-width: 450px;
+        max-width: 440px;
     }
 
     .container{
