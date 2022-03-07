@@ -1,0 +1,59 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+header{
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: rgb(46, 46, 46);
+}
+
+span{
+    font-weight: 300;
+    color: hsl(0, 36%, 70%);
+}
+
+p.description{
+    color: hsl(0, 32%, 75%);
+}
+
+footer{
+    color: rgb(46, 46, 46);
+    text-align: center;
+}
+
+@media screen and (min-width: 450px) {
+
+    img{
+        max-width: 450px;
+    }
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #logo{
+        margin: 50px 0;
+    }
+    
+
+    .left-container{
+        flex: 1;
+        order: 1;
+        margin-right: 30px;
+        width: auto;
+        padding: 0px 10%;
+    }
+
+    
+    .right-container{
+        flex: 1;
+        order: 2;  
+        width: auto;
+        align-self: right;
+    }
+    
+}
