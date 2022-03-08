@@ -15,20 +15,36 @@
 </head>
 <body>
   <div class="container">
+    <div class="mobile-banner">
+      <img src="./images/logo.svg" alt="Base apparel logo" id="logo-mobile">
+      <img src="./images/hero-mobile.jpg" alt="Model posing" id="hero-mobile">
+    </div>
     <div class="right-container">
-      <img src="./images/hero-desktop.jpg" alt="Model posing">
+        <img src="./images/hero-desktop.jpg" alt="Model posing" id="hero-desktop">
     </div>
     <div class="left-container"> 
       <header>
-        <img src="./images/logo.svg" alt="Base apparel logo" id="logo">
+        <img src="./images/logo.svg" alt="Base apparel logo" id="logo-desktop">
         <h1><span>We're</span> </br> coming </br> soon</h1>
       </header>
 
       <p class="description">Hello fellow shoppers! We're currently building our new fashion store. 
       Add your email below to stay up-to-date with announcements and our launch deals.</p>
 
-      Email Address
+      <form class="form" id="form">
+        <div class="form-control sucess">
 
+          <input type="text" id="email" name="email" placeholder="Email Address">
+
+          <img src="./images/icon-error.svg" id="icon-error">
+        
+          <input type="submit" class="submit" value=">">
+
+          <small class="error">Please provide a valid email</small>
+
+        </div>
+      </form>
+           
     </div>
   </div>
   

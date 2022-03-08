@@ -17,6 +17,51 @@ span{
 
 p.description{
     color: hsl(0, 32%, 75%);
+    font-size: 14px;
+}
+
+#email{
+    width: 70%;
+    margin: 20px 0 10px 0;
+    border: 2px solid hsla(0, 36%, 70%, 0.678);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.submit{
+    border-radius: 30px;
+    width: 70px;
+    height: 40px;
+    border: none;
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%)); 
+    margin: 0px;
+    color: white;
+    transition: 0.4s;
+}
+
+#icon-error{
+    width: 20px;
+    float: initial;
+    margin: 10px 0 -5px -80px;
+    visibility: hidden;
+}
+
+.form-control.fail #icon-error{
+    visibility: visible;
+}
+
+.error{
+    color: hsl(0, 100%, 81%);
+    font-size: 11px ;
+    display: block;
+    position: absolute;
+    padding: 0px 30px;
+    margin-top: 0px;
+    visibility: hidden;
+}
+
+.form-control.fail .error{
+    visibility: visible;
 }
 
 footer{
@@ -25,7 +70,40 @@ footer{
     font-size: 12px;
 }
 
-@media screen and (min-width: 450px) {
+a{
+    color: rgb(44, 44, 44);
+}
+
+@media screen and (max-width: 499px) {
+
+    #hero-desktop{
+        display: none;
+    }
+
+    #hero-mobile{
+        width: 100%;
+    }
+
+    #logo-desktop{
+        display: none;
+    }
+
+    #logo-mobile{
+        margin: 20px;
+        height: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 500px) {
+
+    body{
+        background: linear-gradient( 135deg, hsl(0, 100%, 98%), hsl(0, 0%, 100%));
+    }
+
+    #hero-mobile{
+        display: none;
+    }
 
     img{
         max-width: 440px;
@@ -33,13 +111,17 @@ footer{
 
     .container{
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
     
-    #logo{
+    #logo-desktop{
         margin: 50px 0;
+        
     }
     
+    #logo-mobile{
+        display: none;
+    }
 
     .left-container{
         flex: 1;
@@ -55,6 +137,11 @@ footer{
         order: 2;  
         width: auto;
         align-self: right;
+    }
+
+    .submit:hover{
+        width: 80px;
+        background: linear-gradient(135deg, hsl(0, 57%, 77%), hsl(0, 58%, 65%)); 
     }
     
 }

@@ -94,7 +94,10 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [HTML Forms](https://www.w3schools.com/html/html_forms.asp)- This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [CSS transitions](https://www.w3schools.com/css/css3_transitions.asp)
+- [JavaScript Form validation](https://www.youtube.com/watch?v=rsd4FNGTRBw&t=516s)
+
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
